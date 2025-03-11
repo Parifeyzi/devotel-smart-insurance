@@ -24,6 +24,9 @@ A dynamic insurance application portal that allows users to apply for different 
 
 ---
 
+## 🚀 Live Demo  
+🔗 **Deployed at:** [Devotel Smart Insurance](https://devotel-smart-insurance-bkgt.vercel.app/)
+
 ## 🛠️ Tech Stack
 
 - **React** + **TypeScript** + **Vite**
