@@ -358,7 +358,6 @@ function FieldRenderer({
   formInstance,
   t,
   dynamicOptions,
-  shouldShowField,
 }: {
   field: SimpleField;
   formInstance: FormInstance;
