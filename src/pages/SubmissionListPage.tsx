@@ -18,7 +18,7 @@ export default function SubmissionListPage() {
 
   useEffect(() => {
     if (data && data.columns?.length && selectedColumns.length === 0) {
-      setSelectedColumns(["tableIndex", ...data.columns])
+      setSelectedColumns(["index", ...data.columns])
     }
   }, [data, selectedColumns])
 
@@ -32,10 +32,10 @@ export default function SubmissionListPage() {
   if (!data) return null
 
   const serverColumns = data.columns || []
-  const allColumns = ["tableIndex", ...serverColumns]
+  const allColumns = ["index", ...serverColumns]
   const tableData = data.data.map((item, i) => ({
     ...item,
-    tableIndex: i + 1,
+    index: i + 1,
   }))
 
   const columns = selectedColumns.map((col: string) => ({
@@ -43,8 +43,8 @@ export default function SubmissionListPage() {
     dataIndex: col,
     key: col,
     sorter: (a: SubmissionData, b: SubmissionData) =>
-      col === "tableIndex"
-        ? a.tableIndex - b.tableIndex
+      col === "index"
+        ? a.index - b.index
         : `${a[col]}`.localeCompare(`${b[col]}`),
     sortDirections: SORT_DIRECTIONS,
   }))
