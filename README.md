@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# 🏦 Devotel Smart Insurance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic insurance application portal that allows users to apply for different types of insurance (Health, Home, Car, Life, etc.). The forms are fetched from an API and dynamically rendered with conditional logic.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Smart Dynamic Forms**
+   - Fetches form structures from an API dynamically.
+   - Conditional fields appear/disappear based on user input.
+   - Nested sections for specific insurance types.
+   - Supports dynamically loaded options (e.g., states based on selected country).
+   - Full validation before submission.
 
-## Expanding the ESLint configuration
+✅ **Customizable List View**
+   - Displays submitted applications in a table.
+   - Users can **select columns** to display dynamically.
+   - Supports **sorting, searching, and pagination**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✅ **Bonus Features**
+   - 🌙 **Dark Mode** toggle.
+   - 🌍 **Localization (Multi-language support)**.
+   - 💾 **Autosave draft before form submission**.
+   - 🔀 **Drag-and-drop field reordering**.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React** + **TypeScript** + **Vite**
+- **Ant Design (Antd)** for UI components
+- **Tailwind CSS** for styling
+- **React Query** for API data fetching
+- **i18next** for multi-language support
+- **React DnD** for drag-and-drop functionality
+- **Vercel** for deployment (if deployed)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 📥 Installation & Setup
+
+### **1️⃣ Clone the repository**
+```sh
+git clone https://github.com/Parifeyzi/devotel-smart-insurance.git
+cd devotel-smart-insurance
