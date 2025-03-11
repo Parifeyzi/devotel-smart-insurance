@@ -38,7 +38,16 @@ A dynamic insurance application portal that allows users to apply for different 
 
 ## 📥 Installation & Setup
 
-### **1️⃣ Clone the repository**
 ```sh
+# 1️⃣ Clone the repository
 git clone https://github.com/Parifeyzi/devotel-smart-insurance.git
 cd devotel-smart-insurance
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Start the development server
+npm run dev
+
+# Open in browser
+http://localhost:5173
