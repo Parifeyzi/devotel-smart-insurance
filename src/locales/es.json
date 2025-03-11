@@ -1,0 +1,23 @@
+{
+  "siteTitle": "Seguro Inteligente",
+  "home": "Inicio",
+  "apply": "Aplicar",
+  "submissions": "Envíos",
+  "darkMode": "Modo Oscuro",
+  "lightMode": "Modo Claro",
+  "smartInsuranceForms": "Formularios de Seguro Inteligente",
+  "selectAForm": "Seleccione un formulario",
+  "loadingForms": "Cargando formularios...",
+  "failedToLoadForms": "Fallo al cargar formularios...",
+  "required": "Requerido",
+  "formSubmittedSuccess": "¡Formulario enviado con éxito!",
+  "submissionFailed": "¡Envío fallido!",
+  "country": "País",
+  "state": "Estado",
+  "selectAnOption": "Seleccione una opción",
+  "submit": "Enviar",
+  "loadingSubmissions": "Cargando envíos...",
+  "failedToLoadSubmissions": "Fallo al cargar envíos",
+  "submittedApplications": "Aplicaciones enviadas",
+  "columns": "Columnas"
+}

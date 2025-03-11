@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dark .ant-form{
+  background-color: #1F2937 !important;
+  border-color: #666;
+  color: #fff;
+}
+
+.dark .ant-form label{
+  color: #fff;
+}
+
+.dark .ant-picker{
+  background-color: #1F2937 !important;
+  border-color: #666 !important;
+  color: #fff !important;
+}
+
+.dark .ant-select-dropdown{
+  background-color: #1F2937 !important;
+}
+
+/* Dark mode overrides for Ant Design */
+
+/* Table */
+.dark .ant-table {
+  background-color: #1f1f1f;
+}
+.dark .ant-table-thead > tr > th {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+.dark .ant-table-tbody > tr > td {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+.dark .ant-table-tbody > tr.ant-table-row:hover > td {
+  background-color: #333333;
+}
+
+/* Inputs */
+.dark .ant-input {
+  background-color: #1F2937 !important;
+  color: #fff;
+  border-color: #444;
+}
+.dark .ant-input:hover {
+  border-color: #666;
+}
+
+.dark .ant-picker .ant-picker-input > input::placeholder{
+  color: #fff !important;
+}
+
+.dark .ant-input-number-input{
+  background-color: #1F2937 !important;
+  color: #fff;
+}
+
+.dark .ant-form-item-control-input{
+  border-color: #666 !important;
+}
+
+/* Select */
+.dark .ant-select-selector {
+  background-color: #1F2937 !important;
+  border-color: #444 !important;
+  color: #fff !important;
+}
+.dark .ant-select-item-option {
+  background-color: #1F2937 !important;
+  color: #fff;
+}
+.dark .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #444;
+}
+
+/* Checkbox, Radio */
+.dark .ant-checkbox-wrapper,
+.dark .ant-radio-group,
+.dark .ant-radio-wrapper {
+  color: #fff;
+}
+.dark .ant-checkbox-inner,
+.dark .ant-radio-inner {
+  background-color: #1F2937;
+  border-color: #555;
+}
+.dark .ant-checkbox-input:checked + .ant-checkbox-inner,
+.dark .ant-radio-input:checked + .ant-radio-inner {
+  background-color: #1677ff; 
+  border-color: #1677ff;
+}
+
+.ant-btn {
+  background-color: #1677ff;
+  color: #fff;
+}
+
+/* Button */
+.dark .ant-btn {
+  background-color: #1F2937;
+  color: #fff;
+  border-color: #444;
+}
+.dark .ant-btn:hover {
+  background-color: #444 !important;
+  border-color: #555;
+}
+
+/* DatePicker Panel */
+.dark .ant-picker-panel-container {
+  background-color: #1F2937;
+  color: #fff;
+}
+.dark .ant-picker-header-view {
+  color: #fff;
+}
+.dark .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
+  background-color: #1677ff;
+  color: #fff;
+}

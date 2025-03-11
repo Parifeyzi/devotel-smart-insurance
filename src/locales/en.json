@@ -1,0 +1,23 @@
+{
+  "siteTitle": "Smart Insurance",
+  "home": "Home",
+  "apply": "Apply",
+  "submissions": "Submissions",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "smartInsuranceForms": "Smart Insurance Forms",
+  "selectAForm": "Select a form",
+  "loadingForms": "Loading forms...",
+  "failedToLoadForms": "Failed to load forms...",
+  "required": "Required",
+  "formSubmittedSuccess": "Form submitted successfully!",
+  "submissionFailed": "Submission failed!",
+  "country": "Country",
+  "state": "State",
+  "selectAnOption": "Select an option",
+  "submit": "Submit",
+  "loadingSubmissions": "Loading submissions...",
+  "failedToLoadSubmissions": "Failed to load submissions",
+  "submittedApplications": "Submitted Applications",
+  "columns": "Columns"
+}
